@@ -1,0 +1,99 @@
+.donate1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color:white;
+    transform:translate(-50%,-50%);
+    width:400px;
+    border-radius:10px;
+    border: 1px solid;
+    border-color: silver;
+    background-color: lightpink;
+    
+   }
+   .donate1 h1{
+    text-align:center;
+    padding: 0 0 20px 0;
+    transform: translate(0%,40%);
+    /* border-bottom: 1px solid silver; */
+   }
+   .donate1 form{
+    padding:0 40px;
+    box-sizing:border-box;
+
+   }
+   form .txt_field2{
+    position:relative;
+    border-bottom:2px solid rgb(0, 0, 0);
+    margin:30px 20px;
+   }
+   .txt_field2 input{
+        width:97%;
+        padding:0 5px;
+        height:40px;
+        font-size:16px;
+        border:none;
+        outline:none;
+        background-color:  rgba(255, 255, 255, 0.695);
+   }
+   .txt_field2 label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    color:rgb(31, 3, 3);
+    transform: translate(10%);
+    font-size:12px;
+    pointer-events: none;
+    transition:.5s;
+   }
+    .txt_field2 span::before{
+content: '';
+position:absolute;
+top:40px;
+left:0;
+width:100%;
+height:2px;
+background:rgb(235, 239, 242);
+transition: .5s;
+}
+.txt_field2 input:focus ~ label,
+.txt_field2 input:valid ~ label{
+  top:-15px;
+  color:#3696fc;
+  font-size: medium;
+}
+.txt_field2 input:focus ~ span::before,
+.txt_field2 input:focus ~ span::before{
+  width:100%;
+}
+.donatebutton input{
+  width:30%;
+  height: 50px;
+  border: 1px solid;
+  transform: translate(100%, 30%) ;
+  background:#eea2df;
+  border-radius:10px;
+  font-size:18px;
+  color:#01070a;
+   font-weight: 700;
+   cursor:pointer;
+   outline:none;
+}
+.donatebutton input:hover{
+    color:#d92697;
+transition:0.5s;
+opacity: 0.8;
+}
+/* .signup_link1{
+  margin:30px 0;
+  text-align:center;
+  font-size:16px;
+  color:#051c1a;
+}
+.signup_link1 a{
+  color: #2691d9;
+  text-decoration:none;
+}
+.signup_link1 a:hover{
+text-decoration: underline;
+} */

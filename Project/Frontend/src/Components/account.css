@@ -1,0 +1,84 @@
+.ct{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-55%);
+    width:900px;
+    height:440px;
+    background :lightpink;
+    border-radius:5px;
+    border:none;
+   }
+   .ct h1{
+    text-align:center;
+    color:rgb(18, 1, 1);
+    transform:translate(0%,20%);
+   }
+   .ct form{
+    padding:0 40px;
+    box-sizing:border-box;
+
+   }
+   form .tf{
+    position:relative;
+    margin:30px 20px;
+   }
+   .tf p{
+    font-size: 15px;
+    color:rgb(15, 1, 1);
+   }
+   .tf input{
+        width:70%;
+        padding:0 5px;
+        height:30px;
+        font-size:15px;
+        border:none;
+        outline:none;
+        background: rgba(233, 224, 224, 0.3);
+        border-radius: 5px;
+        transform: translate(40%,20%);
+   }
+   .tf label{
+    position:absolute;
+    top:30%;
+    left:16px;
+    color:rgb(15, 1, 1);
+    /* transform: translate(50%,20%); */
+    font-size:16px;
+    pointer-events: none;
+    transition:.5s;
+   }
+   
+   .tf textarea{
+        padding:0 5px;
+        resize: none;
+        font-size:16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border:none;
+        outline:none;
+        background: rgba(233, 224, 224, 0.3);
+        border-radius: 5px;
+        color:rgb(12, 1, 1);
+        transform: translate(-0%,-0%);
+   }
+   
+
+.A_button button{
+  width:30%;
+  transform:translate(110%,-10%);
+  height:40px;
+  border: none;
+  background: rgb(248, 32, 64);
+  border-radius:10px;
+  font-size:18px;
+  color:#0c0b0c;
+   font-weight: 100;
+   cursor:pointer;
+   outline:none;
+   justify-content: center;
+}
+.A_button button:hover{
+    color:#00fff7;
+transition:0.5s;
+opacity: 0.8;
+}

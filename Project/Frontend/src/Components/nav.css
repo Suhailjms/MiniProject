@@ -1,0 +1,43 @@
+.navbar {
+    background-color:rgba(89, 3, 24, 0.823);
+    padding: 1px;
+
+  }
+  .navbar-items img{
+    width: 70px;
+    height: 50px;
+    transform: translate(-1390%, -25%);
+  }
+  
+  .navbar-items {
+    list-style-type: none;
+    display: flex;
+    
+    justify-content: center;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: medium;
+    transform: translate(30%,30%);
+    /* background-image: url(pic1.png); */
+    
+  }
+  .navbar-items a:hover{
+    color: rgb(249, 140, 38);
+    text-decoration: underline;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  img{
+    height: auto;
+    width: auto;
+  }
+  .title{
+    color:white;
+    transform: translate(-550%,-15%);
+    font-size: 40px;
+  }
+
+  

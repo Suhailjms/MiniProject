@@ -1,0 +1,88 @@
+.hospital1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-45%);
+    width:700px;
+    height:600px;
+    background : lightpink;
+    border-radius:10px;
+    border:none;
+   }
+   .hospital1 h1{
+    text-align:center;
+    padding: 0 0 20px 0;
+    color:white
+   }
+   .hospital1 form{
+    padding:0 40px;
+    box-sizing:border-box;
+
+   }
+   form .text1{
+    position:relative;
+    margin:30px 20px;
+   }
+   .text1 p{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(27, 2, 2);
+   }
+   .text1 textarea{
+        padding:0 5px;
+        resize: none;
+        font-size:16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border:none;
+        outline:none;
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        color:rgb(14, 0, 0);
+        transform: translate(-0%,-0%);
+   }
+   input[type="file"]{
+  display:none;
+   }
+   
+    .file_label label{
+    position:absolute;
+    height:60px;
+    width:250px;
+    background-color: rgba(57, 181, 234, 0.4);
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    color:rgb(11, 2, 2);
+    transform: translate(-5%,100%);
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+
+   }
+
+.Next_button button{
+  width:30%;
+  transform:translate(110%,300%);
+  height:40px;
+  border: none;
+ background:#eea2df;
+  border-radius:10px;
+  font-size:30px;
+  color:#01080c;
+   font-weight: 100;
+   cursor:pointer;
+   outline:none;
+   justify-content: center;
+}
+.Next_button button:hover{
+    color:#d92697;
+transition:0.5s;
+opacity: 0.8;
+}

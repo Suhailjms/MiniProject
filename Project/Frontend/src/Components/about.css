@@ -1,0 +1,40 @@
+.H_Page2{
+    margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:transparent;
+    height:190%;
+    width:100%
+}
+.Card2{
+    border:none;
+    border-radius: 10px;
+    padding:20px 20px;
+    background-color:lightpink; 
+    width:80%;
+    height: auto;
+    transform:translate(10%,8%);
+}
+.Card2 h2{
+    color:rgb(19, 4, 4);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Card2 p{
+    color:rgb(9, 1, 1);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:20px 20px;
+}
+.Card2 img{
+    transform:translate(100%,10%);
+    border-radius:10px;
+    height: 200px;
+    width:400px;
+}
+.imgContainer img{
+    border-radius:10px;
+    height: 200px;
+    width:400px;
+    transform:translate(100%,10%);
+}

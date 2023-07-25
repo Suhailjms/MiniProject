@@ -1,0 +1,89 @@
+.education{
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color:white;
+    transform:translate(-60%,-53%);
+    width:500px;
+    border-radius:10px;
+    border: 1px solid;
+    border-color: rgb(227, 3, 134);
+    background-color: lightpink;
+    height: 510px;
+    
+   }
+   .education h1{
+    text-align:center;
+    padding: 0 0 20px 0;
+    transform: translate(0%,40%);
+    /* border-bottom: 1px solid silver; */
+   }
+   .education form{
+    padding:0 40px;
+    box-sizing:border-box;
+
+   }
+   form .txt_field4{
+    position:relative;
+    border-bottom:2px solid rgb(0, 0, 0);
+    margin:30px 20px;
+   }
+   .txt_field4 input{
+        width:97%;
+        padding:0 5px;
+        height:40px;
+        font-size:16px;
+        border:none;
+        outline:none;
+        background-color:  rgba(255, 255, 255, 0.695);
+   }
+   .txt_field4 label{
+    position:absolute;
+    top:-40%;
+    left:5px;
+    color:rgb(31, 3, 3);
+    transform: translate(10%);
+    font-size:14px;
+    pointer-events: none;
+    transition:.5s;
+   }
+    .txt_field4 span::before{
+content: ''; 
+position:absolute;
+top:40px;
+left:0;
+width:100%;
+height:2px;
+background:rgb(245, 245, 245);
+transition: .5s;
+}
+
+.educationbutton input{
+  width:30%;
+  height: 50px;
+  border: 1px solid;
+  transform: translate(100%, 30%) ;
+  background:#eea2df;
+  border-radius:10px;
+  font-size:30px;
+  color:#01070a;
+   font-weight: 700;
+   cursor:pointer;
+   outline:none;
+}
+.educationbutton input:hover{
+    color:#d92697;
+transition:0.5s;
+opacity: 0.8;
+}
+.txt_field4 select{
+    width:100%;
+    padding:0 5px;
+    height:40px;
+    font-size:16px;
+    border:none;
+    outline:none;
+    background: lightpink;
+    border-radius: 5px;
+    color:rgb(12, 0, 0);
+}
